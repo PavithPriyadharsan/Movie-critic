@@ -1,8 +1,14 @@
-# React + Vite
+**Movie Critic website**
+I have used technologies such as:
+- React JS
+- Tailwind CSS
+- Express JS
+- MongoDB
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movie critic website displays a set of movies from a public API, and we can add new movies and reviews which will get stored in the MongoDB. This DB extracting overall data is pending as of now.
 
-Currently, two official plugins are available:
+**To run:**
+1. npm install (main file and backend folder)
+2. node movies.js (to run the server) - move to /backend to run this.
+3. npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
